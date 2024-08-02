@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.navigasi {
+    background-color: rgb(53, 53, 53);
+    width: 100%px;
+    height: 35px;
+    color:rgb(39, 39, 39);
+}    
+
+
+.logo {
+float: left;
+padding-top: 30px;
+padding-bottom: 10px;
+padding-left: 30px;
+}
+
+
+.menu {
+    margin-left: 165px;
+    margin-top: 20px;
+}
+
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+
+.menu ul li a {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
+.menu ul li a:hover {
+    color: rgb(255, 108, 157);
+    font-style: italic;
+}
+
+
+.banner {
+    background-color: rgb(209, 209, 209);
+    height: 600px;
+    text-align: center;
+    color:rgb(18, 18, 18);
+}
+
+.banner img{
+    border-radius: 50px;
+    height: 130px;
+    border: 4px solid rgb(190, 190, 190);
+    margin-top: 100px;
+
+}
+
+.banner h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.banner button {
+    margin-top: 60px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+}
+
+.banner button:hover {
+    background-color:rgb(255, 108, 157);
+    border: 1px solid white;
+    color: white;
+}
+
+h1 span:before{
+    content: '';
+    animation: gerak infinite 8s ease;
+    transform: translateY(-50%);
+    color:rgb(18, 18, 18);
+    font-size: 50px;
+}
+
+@keyframes gerak {
+    0% {
+        content: 'SELAMAT DATANG';
+    }
+    50% {
+        content: 'KAMI KELOMPOK 3';
+    }
+    100% {
+        content: 'PEMROGRAMAN WEB';
+    }
+}
+
+
+.box-Anggota {
+    text-align: center;
+    color:rgb(37, 37, 37);
+    margin-top: 150px;
+    align-content: center;
+
+}
+
+
+.box-Anggota img {
+    border-radius: 100px;
+    height: 135px;
+}
+
+
+.box-kiri, .box-tengah, .box-kanan {
+    width: 340px;
+    height: 600px;
+    background-color:rgb(200, 200, 200);
+    text-align: center;
+    padding: 25px 15px;
+    margin: 50px 20px 20px 55px;
+    border-radius: 20px;
+    float: left;
+}
+
+
+.box-kiri img, .box-tengah img, .box-kanan img {
+    margin: 30px;
+}
+
+.box-kiri h1, .box-tengah h1, .box-kanan h1 {
+
+}
+
+
+.box-kiri:hover, .box-tengah:hover, .box-kanan:hover {
+    background-color:rgb(190, 190, 190);
+    color:rgb(83, 83, 83);
+}
+
+.box-Anggota h3, p{
+
+    margin-bottom: 10px;
+    padding-bottom: 13px;
+    padding: 0px 20px;
+}
+
+.box-Portofolio {
+    text-align: center;
+    color:rgb(83, 83, 83);
+    margin: 0px auto;
+    margin-top: 400px;
+}
+
+
+.box-Portofolio img {
+    border-radius: 100px;
+    height: 150px;
+}
+
+
+.box-Riwayat_Tugas {
+    text-align: center;
+    border-radius: 150px;
+    color:rgb(83, 83, 83);
+    height: 150px;
+    
+}
+
+.footer {
+    background-color:rgb(83, 83, 83);
+    width: 100%;
+    height: 50px;
+    color:rgb(255, 108, 157);
+    padding: 13px;
+    margin: 100px auto 0px;
+}
+
+
+.box-Anggota button {
+    margin-top: 100px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+}
+
+
+.box-Anggota button:hover {
+    background-color:rgb(255, 108, 157);
+    border: 1px solid white;
+    color: white;
+}
+
+
+.box-tengah button {
+    margin-top: 130px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+}
+
+
+.box-tengah button:hover {
+    background-color:rgb(255, 108, 157);
+    border: 1px solid white;
+    color: white;
+}
+
+
+.box-kanan button {
+    margin-top: 500px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+}
+
+
+.box-kanan button:hover {
+    background-color:rgb(255, 108, 157);
+    border: 1px solid white;
+    color: white;
+}
+
+
+.box-kiri button {
+    margin-top: 370px;
+    padding: 10px;
+    width: 1150px;
+    border-radius: 50px;
+    border: none;
+}
+
+
+.box-kiri button:hover {
+    background-color:rgb(255, 108, 157);
+    border: 1px solid white;
+    color: white;
+}
+
+
+.menu button {
+    margin-top: -10px;
+    padding: 7px;
+    width: 100px;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    float: left;
+    justify-content: center;
+}
+
+
+.menu button {
+    background-color:rgb(255, 108, 157);
+    border: 2px solid white;
+    color: white;
+}
+
+.menu button:hover {
+    background-color:rgba(21, 47, 214, 0.288);
+    border: 2px solid white;
+    color: white;
+}
+
+
+.menu 
